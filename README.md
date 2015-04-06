@@ -1,9 +1,9 @@
 # TD
-terminal dictionary
+A native terminal dictionary, with a few lines in bash and a collection of txt dictionaries.
 
 ## Usage
-1. Download the txt files
-2. put following lines to your zshrc or bashrc
+1. Download the txt dictionaries to *dictPath*
+2. Put following lines to your zshrc or bashrc
 ```bash
 d() {
   blue=`echo -e "\e[1m\e[34m"` # specify format for dictionary name and word being looked in urxvt.
