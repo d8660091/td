@@ -5,7 +5,7 @@ A native terminal dictionary, with a few lines in bash and a collection of txt d
 1. Download the txt dictionaries to *dictPath*
 2. Put following lines to your zshrc or bashrc
 ```bash
-unalise d
+unalias d
 d() {
   blue=`echo -e "\e[1m\e[34m"` # specify format for dictionary name and word being looked in urxvt.
   norm=`echo -e "\e[0m"` # normal format in urxvt.
